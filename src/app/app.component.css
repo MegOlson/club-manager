@@ -9,3 +9,7 @@ a {
   color: black;
   font-family: 'Varela Round', sans-serif;
 }
+
+.jumbotron {
+  background-color: rgba(300,800,300,.5);
+}

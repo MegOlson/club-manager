@@ -1,22 +1,22 @@
-<form>
-  <label for="editName">Member Name:</label>
-  <input [(ngModel)]="selectedMember.name" name="name" class="form-control" required>
+  <form>
+    <label for="editName">Member Name:</label>
+    <input [(ngModel)]="selectedMember.name" name="name" class="form-control" required>
 
-  <label for="editAge">Age:</label>
-  <input type="number" [(ngModel)]="selectedMember.age" name="age" class="form-control" required>
+    <label for="editAge">Age:</label>
+    <input type="number" [(ngModel)]="selectedMember.age" name="age" class="form-control" required>
 
-  <label for="editEmail">Email:</label>
-  <input [(ngModel)]="selectedMember.email" name="email" class="form-control" required>
+    <label for="editEmail">Email:</label>
+    <input [(ngModel)]="selectedMember.email" name="email" class="form-control" required>
 
-  <label for="editSpecialty">Growing Specialty:</label>
-  <input [(ngModel)]="selectedMember.specialty" name="specialty" class="form-control" required>
+    <label for="editSpecialty">Growing Specialty:</label>
+    <input [(ngModel)]="selectedMember.specialty" name="specialty" class="form-control" required>
 
-  <label for="editExperience">Years of experience:</label>
-  <input type="number" [(ngModel)]="selectedMember.experience" name="experience" class="form-control" required>
+    <label for="editExperience">Years of experience:</label>
+    <input type="number" [(ngModel)]="selectedMember.experience" name="experience" class="form-control" required>
 
-  <label for="editFavoriteCrop">Favorite Crop:</label>
-  <input [(ngModel)]="selectedMember.favoriteCrop" name="favoriteCrop" class="form-control" required>
+    <label for="editFavoriteCrop">Favorite Crop:</label>
+    <input [(ngModel)]="selectedMember.favoriteCrop" name="favoriteCrop" class="form-control" required>
 
-  <button (click)="beginUpdatingMember(selectedMember)" class="btn">Update Member</button>
-  <button (click)="beginDeletingMember(selectedMember)" class="btn">Delete</button>
-</form>
+    <button (click)="beginUpdatingMember(selectedMember)" class="btn">Update Member</button>
+    <button (click)="beginDeletingMember(selectedMember)" class="btn">Delete</button>
+  </form>

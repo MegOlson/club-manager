@@ -1,0 +1,5 @@
+<h2>Pacific Northwest Garden Club Members:</h2>
+
+<div *ngFor="let member of members | async | experience"  class="eachMember">
+  <h3 (click)="goToMemberPage(member)">{{member.name}}</h3>
+</div>

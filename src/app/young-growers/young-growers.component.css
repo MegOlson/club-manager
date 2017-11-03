@@ -1,6 +1,8 @@
 .eachMember {
   text-align: center;
   font-family: 'Varela Round', sans-serif;
+  background-color: inherit;
+  border: none;
 }
 
 h2 {

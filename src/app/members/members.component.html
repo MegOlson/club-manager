@@ -1,9 +1,7 @@
 <h2>Pacific Northwest Garden Club Members:</h2>
 
-<div *ngFor="let member of members | async"  class="panel panel-default">
-  <div class="panel-body">
-    <h4 (click)="goToMemberPage(member)">{{member.name}}</h4>
-  </div>
+<div *ngFor="let member of members | async" >
+    <h3 class="eachMember" (click)="goToMemberPage(member)">{{member.name}}</h3>
   <div *ngIf="currentRoute === '/admin'">
     <app-edit-member [selectedMember]="member"></app-edit-member>
   </div>

@@ -6,3 +6,9 @@ body {
 	background-attachment: fixed;
   margin-bottom: 100px;
 }
+
+.btn {
+  background-color: #e8b8bf;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

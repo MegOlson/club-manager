@@ -25,7 +25,7 @@ export class AddMemberComponent implements OnInit {
     age: number,
     email: string,
     specialty: string,
-    experience: string,
+    experience: number,
     favoriteCrop: string
   ) {
     let newMember: Member = new Member(name, age, email, specialty, experience, favoriteCrop);

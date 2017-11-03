@@ -4,7 +4,7 @@ export class Member {
     public age: number,
     public email: string,
     public specialty: string,
-    public experience: string,
+    public experience: number,
     public favoriteCrop: string
   ) {}
 }

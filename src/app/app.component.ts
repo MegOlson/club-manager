@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Member } from './member.model';
-// import { MemberService } from '../member.service';
+import { MemberService } from './member.service';
 import { Router } from '@angular/router';
 
 
@@ -10,5 +10,10 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  fullImagePath: string;
+
+  constructor(){
+    this.fullImagePath = 'src/app/flower.png';
+  }
 
 }

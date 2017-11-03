@@ -17,3 +17,11 @@ a {
 .text-muted {
   color: grey;
 }
+
+.navbar-brand {
+  font-size: 20px;
+}
+
+.inline {
+  display: inline;
+}

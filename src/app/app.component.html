@@ -1,7 +1,7 @@
 <nav class="navbar">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" routerLink="">Pacific Northwest Garden Club</a>
+      <a class="navbar-brand" routerLink="">Pacific Northwest Garden Club <img [src]="fullImagePath" class="inline"> </a>
     </div>
     <ul class="nav navbar-nav navbar-right">
       <li><a routerLink="about">About</a></li>
@@ -12,8 +12,8 @@
   </div>
 </nav>
 
-<div class="container">
   <div class="jumbotron">
-    <router-outlet></router-outlet>
+    <div class="container">
+      <router-outlet></router-outlet>
+    </div>
   </div>
-</div>

@@ -1,4 +1,5 @@
 # ClubManager
+## Pacific Northwest Gardening Club
 
 By: Megan Olson
 
@@ -14,10 +15,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * Create a database using Firebase and import json named _sample-members.json_
 * Use your own personal api-keys file recieved from Firebase.
 * Run the following commands in terminal:
-  * $ npm install
-  * $ bower install
-  * $ ng build
-  * $ ng serve
+  * `$ npm install`
+  * `$ bower install`
+  * `$ ng build`
+  * `$ ng serve`
 
 ## Development server
 

@@ -1,6 +1,23 @@
 # ClubManager
 
+By: Megan Olson
+
+## Description
+
+A Web application for the Pacific Northwest Gardening Club to manage members. Application allows users to view members and their details along with adding, deleting, and updating each member.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+
+## Installation and Setup
+
+* Clone Repository named _club-manager_
+* Create a database using Firebase and import json named _sample-members.json_
+* Use your own personal api-keys file recieved from Firebase.
+* Run the following commands in terminal:
+  * $ npm install
+  * $ bower install
+  * $ ng build
+  * $ ng serve
 
 ## Development server
 
@@ -8,21 +25,39 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+Run `ng g component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Running unit tests
+## Known Bugs 🐛🐛🐛
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+No known bugs
 
-## Running end-to-end tests
+## Support and contact details
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+_Feel free to contact me at meganannetteolson@yahoo.com_
+
+## Technologies Used
+
+* _HTML_
+* _CSS_
+* _Javascript/jQuery_
+* _NPM_
+* _Bower_
+* _Bootstrap_
+* _Angular2_
+* _Firebase_
+
+### License
+
+Copyright (c) 2017 **Megan Olson**
+
+<img src="https://avatars.githubusercontent.com/MegOlson?s=100" width="100" alt="Megan Olson" /><br />[<sub>Megan Olson</sub>](https://github.com/MegOlson)<br />[💻](https://github.com/club-manager/commits?author=MegOlson) [📖](https://github.com/club-manager/commits?author=MegOlson) [⚠️](https://github.com/club-manager/commits?author=MegOlson) 🎨
 
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+*This software is licensed under the MIT license.*

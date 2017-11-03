@@ -1,9 +1,25 @@
 <div class="details">
   <h3>{{(memberToDisplay | async).name}}</h3>
-  <h5>Age:</h5> <p>{{(memberToDisplay | async).age}}</p>
-  <h4>Contact Information:</h4>
-  <h5>Email:</h5> <p>{{(memberToDisplay | async).email}}</p>
-  <h4>Specialty:</h4> <p>{{(memberToDisplay | async).specialty}}</p>
-  <h4>Experience:</h4> <p>{{(memberToDisplay | async).experience}}</p>
-  <h4>Favorite Crop:</h4> <p>{{(memberToDisplay | async).favoriteCrop}}</p>
+  <div class="row">
+    <div class="col-md-2">
+      <h4>Age:</h4>
+      <h5>{{(memberToDisplay | async).age}}</h5>
+    </div>
+    <div class="col-md-3">
+      <h4>Email:</h4>
+      <h5>{{(memberToDisplay | async).email}}</h5>
+    </div>
+    <div class="col-md-2">
+      <h4>Specialty:</h4>
+      <h5>{{(memberToDisplay | async).specialty}}</h5>
+    </div>
+    <div class="col-md-3">
+      <h4>Experience:</h4>
+      <h5>{{(memberToDisplay | async).experience}} years</h5>
+    </div>
+    <div class="col-md-2">
+      <h4>Favorite Crop:</h4>
+      <h5>{{(memberToDisplay | async).favoriteCrop}}</h5>
+    </div>
+  </div>
 </div>

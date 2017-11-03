@@ -13,3 +13,7 @@ a {
 .jumbotron {
   background-color: rgba(300,800,300,.5);
 }
+
+.text-muted {
+  color: grey;
+}

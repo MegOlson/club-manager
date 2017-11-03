@@ -19,6 +19,10 @@ export class MemberService {
       return this.database.object('/members/' + memberId);
     }
 
+    addMember(newMember: Member) {
+      this.members.push(newMember);
+    }
+
     // updateMember(localUpdatedMember) {
     //   let memberEntryInFirebase = this.getMemberById(localUpdatedMember.$key);
     //   memberEntryInFirebase.update({name: localUpdatedMember.name,

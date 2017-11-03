@@ -1,0 +1,21 @@
+<form>
+  <label for="name">Member Name:</label>
+  <input #newName class="form-control" required>
+
+  <label for="age">Age:</label>
+  <input type="number" #newAge class="form-control" required>
+
+  <label for="email">Email:</label>
+  <input #newEmail class="form-control" required>
+
+  <label for="specialty">Growing Specialty:</label>
+  <input #newSpecialty  class="form-control" required>
+
+  <label for="experience">Years of experience:</label>
+  <input type="number" #newExperience  class="form-control" required>
+
+  <label for="favoriteCrop">Favorite Crop:</label>
+  <input #newFavoriteCrop class="form-control" required>
+
+  <button (click)="submitForm(newName.value, newAge.value, newEmail.value, newSpecialty.value, newExperience.value, newFavoriteCrop.value);" class="btn">Add Member</button>
+</form>

@@ -1,0 +1,33 @@
+{"members": [{
+  "name": "Suzanne",
+  "age": 23,
+  "email": "suzanne28@gmail.com",
+  "specialty": "Flowers",
+  "experience": 5,
+  "favoriteCrop": "Peony"
+  },
+  {
+  "name": "Beth",
+  "age": 30,
+  "email": "bethIAm@yahoo.com",
+  "specialty": "Succulents",
+  "experience": 10,
+  "favoriteCrop": "Aeonium"
+  },
+  {
+  "name": "Duke",
+  "age": 45,
+  "email": "dukePlantsThings@gmail.com",
+  "specialty": "Perennials",
+  "experience": 9,
+  "favoriteCrop": "Rhubard"
+  },
+  {
+  "name": "Lucy",
+  "age": 19,
+  "email": "lucyann@gmail.com",
+  "specialty": "Herbs",
+  "experience": 1,
+  "favoriteCrop": "Lavendar"
+  }]
+}

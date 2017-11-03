@@ -4,7 +4,7 @@ import { MemberService } from '../member.service';
 import { Router } from '@angular/router';
 import { FirebaseListObservable } from 'angularfire2/database';
 import { AddMemberComponent } from '../add-member/add-member.component';
-// import { EditMemberComponent } from './edit-member/edit-member.component';
+import { EditMemberComponent } from '../edit-member/edit-member.component';
 
 @Component({
   selector: 'app-admin',

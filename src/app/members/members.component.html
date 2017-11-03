@@ -4,4 +4,7 @@
   <div class="panel-body">
     <h4 (click)="goToMemberPage(member)">{{member.name}}</h4>
   </div>
+  <div *ngIf="currentRoute === '/admin'">
+    <app-edit-member [selectedMember]="member"></app-edit-member>
+  </div>
 </div>

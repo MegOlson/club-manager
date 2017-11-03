@@ -23,15 +23,15 @@ export class MemberService {
       this.members.push(newMember);
     }
 
-    // updateMember(localUpdatedMember) {
-    //   let memberEntryInFirebase = this.getMemberById(localUpdatedMember.$key);
-    //   memberEntryInFirebase.update({name: localUpdatedMember.name,
-    //                                 memberManagers: localUpdatedMember.memberManagers,
-    //                                 description: localUpdatedMember.description,
-    //                                 goal: localUpdatedMember.goal,
-    //                                 fundsRaised: localUpdatedMember.fundsRaised,
-    //                                 intention: localUpdatedMember.intention});
-    // }
+    updateMember(localUpdatedMember) {
+      let memberEntryInFirebase = this.getMemberById(localUpdatedMember.$key);
+      memberEntryInFirebase.update({name: localUpdatedMember.name,
+                                    age: localUpdatedMember.age,
+                                    email: localUpdatedMember.email,
+                                    specialty: localUpdatedMember.specialty,
+                                    experience: localUpdatedMember.experience,
+                                    favoriteCrop: localUpdatedMember.favoriteCrop});
+    }
 
     deleteMember(localMemberToDelete) {
       let memberEntryInFirebase = this.getMemberById(localMemberToDelete.$key);

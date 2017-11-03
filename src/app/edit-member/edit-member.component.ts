@@ -1,8 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-import { Member } from '../member.model';
+import { Component, Input, OnInit } from '@angular/core';
 import { MemberService } from '../member.service';
 import { Router } from '@angular/router';
-import { FirebaseListObservable } from 'angularfire2/database';
+import { Member } from '../member.model';
 
 @Component({
   selector: 'app-edit-member',
@@ -11,6 +10,7 @@ import { FirebaseListObservable } from 'angularfire2/database';
   providers: [MemberService]
 })
 export class EditMemberComponent implements OnInit {
+  @Input() selectedMember;
 
   constructor(
     private router: Router,
@@ -20,4 +20,14 @@ export class EditMemberComponent implements OnInit {
   ngOnInit() {
   }
 
+  beginUpdatingMember(memberToUpdate) {
+    this.memberService.updateMember(memberToUpdate);
+    this.router.navigate(['members']);
+  }
+
+  beginDeletingMember(memberToDelete) {
+    if(confirm("Are you sure you want to delete this?")) {
+      this.memberService.deleteMember(memberToDelete);
+    }
+  }
 }

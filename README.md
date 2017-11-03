@@ -1,4 +1,4 @@
-![image]('https://raw.githubusercontent.com/MegOlson/club-manager/master/Screen%20Shot%20.png')
+![image](https://raw.githubusercontent.com/MegOlson/club-manager/master/Screen%20Shot%20.png)
 
 # ClubManager
 ## Pacific Northwest Gardening Club

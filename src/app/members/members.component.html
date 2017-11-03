@@ -1,0 +1,7 @@
+<h2>Projects:</h2>
+
+<div *ngFor="let member of members | async"  class="panel panel-default">
+  <div class="panel-body">
+    <h4 (click)="goToMemberPage(member)">{{member.name}}</h4>
+  </div>
+</div>
